@@ -2,8 +2,7 @@ function addButton () {
 
   const audio = $('audio').attr("src");
 
-
- 	if (audio) {
+  if (audio) {
 
     $("<a class='x-btn' id='downloadAudio' download>Download Audio</a>").insertAfter('.x-audio');
 
