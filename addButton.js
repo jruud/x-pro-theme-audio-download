@@ -1,6 +1,6 @@
 function addButton () {
 
-  var audio = $('audio').attr("src");
+  const audio = $('audio').attr("src");
 
 
  	if (audio) {
