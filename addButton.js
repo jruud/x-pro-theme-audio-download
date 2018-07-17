@@ -12,4 +12,4 @@ function addButton () {
 
 if ($('article').attr("class", "type-post")) {
     setTimeout( addButton, 1000);
-  }
+}
